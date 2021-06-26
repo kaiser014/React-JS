@@ -1,0 +1,53 @@
+/* Feature Main File */
+.featureSection{
+    padding: 50px 0;
+}
+.featureSection1{
+    background: url(../../images/feature-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.featureSection1Inner{
+    padding: 50px 0;
+}
+
+/* Feature Content File 1 & 2 */
+.featureContentHeading{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.featureContentParagraph{
+    margin: 20px 0px;
+}
+.featureContentButton{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF9C00;
+    color: #fff;
+}
+.featureImage{
+    height: 250px;
+}
+
+/* Feature Content File Only 2 */
+.featureInnerSection2{
+    padding-top: 50px;
+}
+.featureMessageField{
+    position: relative;
+}
+.featureEmail{
+    padding: 21px !important;
+}
+.featureContentButton2{
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF9C00;
+    color: #fff;
+}

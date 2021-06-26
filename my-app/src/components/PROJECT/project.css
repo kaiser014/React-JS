@@ -1,0 +1,50 @@
+.projectSection{
+    background: url(../../images/project-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+.projectSectionHeading{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+}
+.projectSectionParagraph{
+    color: #fff;
+}
+
+/* Project File Section */
+.pojectFileSection{
+    margin-top: 30px;
+}
+.ProjectFileImage{
+    height: 350px;
+}
+.ProjectFileHeading{
+    margin-top: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+.ProjectFileParagraph{
+    color: #fff;
+}
+.pojectFileLink{
+    margin-top: 20px;
+}
+.pojectFileLink ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+.pojectFileLink ul li{
+    margin-right: 10px;
+}
+.pojectFileLink ul li a{
+    text-decoration: none;
+    color: #FF9C00;
+    font-weight: 600;
+    font-size: 20px;
+}

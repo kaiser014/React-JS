@@ -1,0 +1,125 @@
+/* Footer Main File */
+.footerSection{
+    background: url(../../images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+}
+.footerBrand ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+.footerBrand ul li{
+    margin-right: 10px;
+}
+.footerBrand ul li a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.footerParagraph{
+    color: #fff;
+    text-align: justify;
+}
+.footerHeading{
+    margin-top: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.footerMessageField{
+    position: relative;
+    margin-top: 20px;
+}
+.footerButton{
+    position: absolute;
+    top: 0;
+    right: -1px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1B498A;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 15px;
+}
+/* Footer Address File */
+
+/* Footer Link File */
+.footerLinkSection{
+    margin-left: 50px;
+}
+.footerLinkHeading{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.footerLinkOption ul{
+    list-style: none;
+}
+.footerLinkOption ul li{
+    margin-top: 20px;
+}
+.footerLinkOption ul li a{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* Footer DIVIDER */
+.dividerSection{
+    padding-top: 30px;
+}
+.footerDivider{
+    border: 1px solid #fff;
+    opacity: .3;
+}
+
+/* Footer Left Side LINK */
+.footerTermsSection{
+    padding: 30px 0;
+}
+.TermsSection ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+.TermsSection ul li{
+    margin-right:20px;
+}
+.TermsSection ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* Footer Right Side */
+.footerCopyRight{
+    color: #fff;
+}
+
+/* Footer Social Icon File */
+.footerSocialSection ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+.footerSocialSection ul li{
+    margin-left: 20px;
+}
+.socialIcon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    font-size:20px;
+}
+.facebookIcon{
+    background-color: #3A5897;
+}
+.twitterIcon{
+    background-color: #1DA0F1;
+}
+.youtubeIcon{
+    background-color: #C4302B;
+}

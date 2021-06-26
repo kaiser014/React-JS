@@ -1,0 +1,49 @@
+.serviceSection{
+    padding: 50px 0;
+}
+.serviceHeading{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/* Service Column CSS Style */
+.serviceContentDetails{
+    margin-top: 40px;
+}
+.serviceBackground{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #fcf2e1;
+}
+.serviceContentLink ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+.serviceContentLink ul li{
+    margin-right: 10px;
+}
+.serviceContentLink ul li a{
+    text-decoration: none;
+    color: #FF9C00;
+    font-size: 18px;
+    font-weight: 600;
+}
+.serviceContentHeading{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.contentIcon{
+    color: #FF9C00;
+}
+.serviceIcon{
+    position: absolute;
+    top: 17%;
+    left: 43px;
+    color: #FF9C00;
+    font-size: 25px;
+    transform: translate(20%,5%);
+}

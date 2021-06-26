@@ -1,0 +1,63 @@
+/* Client Main File*/
+.clientSection{
+    padding: 50px 0;
+}
+.clientImageSection{
+    position: relative;
+}
+
+/* Client Image Section*/
+.clientBg{
+    position: relative;
+}
+.clientBgDot{
+    position: absolute;
+    top: -20px;
+    left: 12px;
+    z-index: -1;
+}
+.clientImage{
+    height: 300px;
+}
+.clientImageSection{
+    text-align: center;
+}
+
+/* Client Content Section*/
+.clientContentName{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.clientContentTitle{
+    text-transform: capitalize;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.clientContentParagraph{
+    text-align: justify;
+}
+
+.clientDetailsArrow ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+.clientDetailsArrow ul li{
+    margin-right: 30px;
+}
+.ArrowBg{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #FF9C00;
+    background-color: #fff;
+}
+.Arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%,-60%);
+    font-size: 25px;
+    color: #FF9C00;
+}
